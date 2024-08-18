@@ -12,16 +12,14 @@ fun main(){
     if(finishMinutes>minutesInHour) {
         finishMinutes-=minutesInHour
         finishHour+=1
-        print(finishHour)
-        print(":"+finishMinutes)
+        println("$finishHour:$finishMinutes")
+
     } /*else if (finishMinutes==minutesInHour) {
        // finishMinutes=0
         finishHour+=1
-        print(finishHour)
-        print(":"+"00")
+        print("$finishHour:00")
     } else {
-        print(finishHour)
-        print(":"+finishMinutes)
+        println("$finishHour:$finishMinutes")
     }*/
 
 }
