@@ -6,20 +6,14 @@ fun main(){
     val pathTime = 457
     val minutesInHour = 60
 
-    var finishHour = startHour + (pathTime/minutesInHour)
-    var finishMinutes = startMinutes + (pathTime%minutesInHour)
+    var finishHour = startHour + (pathTime / minutesInHour)
+    var finishMinutes = startMinutes + (pathTime % minutesInHour)
 
-    if(finishMinutes>minutesInHour) {
-        finishMinutes-=minutesInHour
-        finishHour+=1
+    if(finishMinutes > minutesInHour) {
+        finishMinutes -= minutesInHour
+        finishHour += 1
         println("$finishHour:$finishMinutes")
 
-    } /*else if (finishMinutes==minutesInHour) {
-       // finishMinutes=0
-        finishHour+=1
-        print("$finishHour:00")
-    } else {
-        println("$finishHour:$finishMinutes")
-    }*/
+    }
 
 }
