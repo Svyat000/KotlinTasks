@@ -9,6 +9,7 @@ fun main(){
     val secondFinish = seconds % secondInHour
     val minutes = (seconds / secondInHour) % secondInHour
     val hour = seconds / secondInHour / minutesInHour
+
     println("$hour:$minutes:$secondFinish")
 
 
