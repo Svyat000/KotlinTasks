@@ -12,7 +12,7 @@ fun main(){
     val checkWeight2 = 50
     val checkLiters2 = 100
 
-    println("Average: ${(checkWeight1 > minWeight &&  checkWeight1<=maxWeight) && checkLiters1 < maxLiters}")
-    println("Average: ${(checkWeight2 > minWeight &&  checkWeight2<=maxWeight) && checkLiters2 < maxLiters}")
+    println("Average: ${(checkWeight1 > minWeight &&  checkWeight1 <= maxWeight) && checkLiters1 < maxLiters}")
+    println("Average: ${(checkWeight2 > minWeight &&  checkWeight2 <= maxWeight) && checkLiters2 < maxLiters}")
 
 }
