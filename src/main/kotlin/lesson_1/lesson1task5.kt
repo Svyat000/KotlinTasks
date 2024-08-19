@@ -12,5 +12,4 @@ fun main(){
     println("$hour:$minutes:$secondFinish")
 
 
-
 }
