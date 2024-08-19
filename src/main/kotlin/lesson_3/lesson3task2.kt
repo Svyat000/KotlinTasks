@@ -2,7 +2,7 @@ package org.example.lesson_3
 
 fun main(){
 
-    val Surname = "Андреева"
+    val surname = "Андреева"
     val name = "Татьяна"
     val patronymic = "Сергеевна"
     val newSurname = "Сидорова"
@@ -10,6 +10,6 @@ fun main(){
     val yearFirst = 20
     val yearSecond = 22
 
-    println("$Surname $name $patronymic $yearFirst лет")
+    println("$surname $name $patronymic $yearFirst лет")
     println("$newSurname $name $patronymic $yearSecond лет")
 }
