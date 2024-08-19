@@ -8,8 +8,8 @@ fun main(){
     val crystalOre = 7
     val metalOre = 11
 
-    val resultCrystalOre = crystalOre*buf
-    val resultMetalOre = metalOre*buf
+    val resultCrystalOre = crystalOre * buf
+    val resultMetalOre = metalOre * buf
 
     println("crystalOre: $crystalOre")
     println("BONUS crystalOre: "+ resultCrystalOre.roundToInt())
