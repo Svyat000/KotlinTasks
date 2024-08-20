@@ -7,8 +7,6 @@ fun main(){
     val humidity = 20
     val timeOfYear = "Зима"
 
-    println("Благоприятные ли условия сейчас для роста бобовых? ${(solarWeather == true) && (tentIsOpen == true) && (humidity == 20) && (!timeOfYear.equals("Зима")) }")
-
-
+    println("Благоприятные ли условия сейчас для роста бобовых? ${solarWeather && tentIsOpen && (humidity == 20) && timeOfYear != "Зима"}")
 
 }
